@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Preciosas | Extensão de cílios e micropigmentação</title>
+<meta name="description" content="Preciosas: extensão de cílios, micropigmentação de sobrancelhas e lábios. Peça seu orçamento e agende pelo WhatsApp.">
+<meta name="theme-color" content="#F4D3DA">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+
+<header class="hdr" id="hdr">
+  <div class="wrap">
+    <a href="#inicio" class="logo">Preciosas</a>
+    <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+    <ul class="nav" id="nav">
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#resultados">Resultados</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#avaliacoes">Avaliações</a></li>
+      <li><a href="#orcar">Orçar</a></li>
+      <li><a href="#local">Localização</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+<!-- INÍCIO / CARROSSEL -->
+<section class="hero" id="inicio">
+  <div class="hero-bg" aria-hidden="true">
+    <img class="hero-lash" src="static/assets/cilios-logo.png" alt="">
+    <span class="hero-ring"></span>
+    <img class="hero-bf a" src="static/assets/borboletas.jpg" alt="">
+    <img class="hero-bf b" src="static/assets/borboletas.jpg" alt="">
+  </div>
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <p class="brand">Preciosas</p>
+      <h1>Seu olhar em destaque, com naturalidade.</h1>
+      <p class="lead">Extensão de cílios e micropigmentação de sobrancelhas e lábios, feitas sob medida para o seu rosto.</p>
+      <div class="hero-cta"><a class="btn" href="#orcar">Pedir orçamento</a><a class="btn ghost" href="#servicos">Ver serviços e valores</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVIÇOS -->
+<section class="services" id="servicos">
+  <div class="wrap">
+    <div class="rv"><h2>Serviços e valores</h2>
+    <p class="lead">Escolha a categoria, veja os valores e peça seu orçamento em um toque.</p></div>
+    <div class="tabs rv" role="tablist" aria-label="Categorias">
+      <button role="tab" id="t-cilios" aria-controls="p-cilios" aria-selected="true">Extensão de cílios</button>
+      <button role="tab" id="t-pig" aria-controls="p-pig" aria-selected="false" tabindex="-1">Micropigmentação</button>
+    </div>
+    <div class="panel" id="p-cilios" role="tabpanel" aria-labelledby="t-cilios">
+      <ul class="list">
+        <li class="item"><img src="static/assets/d-brasileiro.png" alt="Desenho ilustrativo de Brasileiro" loading="lazy"><div><h3>Brasileiro</h3><p>Efeito natural e delicado, ideal para o dia a dia.</p></div><span class="price">R$ 150</span><button class="btn ghost" data-sv="Brasileiro">Orçar</button></li>
+        <li class="item"><img src="static/assets/d-fio-u.png" alt="Desenho ilustrativo de Brasileiro com fio U" loading="lazy"><div><h3>Brasileiro com fio U</h3><p>O brasileiro com fio U, para mais definição no olhar.</p></div><span class="price">R$ 160</span><button class="btn ghost" data-sv="Brasileiro com fio U">Orçar</button></li>
+        <li class="item"><img src="static/assets/d-5d.png" alt="Desenho ilustrativo de Volume 5D" loading="lazy"><div><h3>Volume 5D</h3><p>Mais volume, com textura e preenchimento.</p></div><span class="price">R$ 170</span><button class="btn ghost" data-sv="5D">Orçar</button></li>
+        <li class="item"><img src="static/assets/d-6d.png" alt="Desenho ilustrativo de Volume 6D" loading="lazy"><div><h3>Volume 6D</h3><p>Volume intenso para um olhar marcante.</p></div><span class="price">R$ 190</span><button class="btn ghost" data-sv="6D">Orçar</button></li>
+        <li class="item"><img src="static/assets/d-fox.png" alt="Desenho ilustrativo de Fox" loading="lazy"><div><h3>Fox</h3><p>Efeito alongado que levanta e alonga o olhar.</p></div><span class="price">R$ 190</span><button class="btn ghost" data-sv="Fox">Orçar</button></li>
+      </ul>
+    </div>
+    <div class="panel" id="p-pig" role="tabpanel" aria-labelledby="t-pig" hidden>
+      <ul class="list">
+        <li class="item"><img src="static/assets/d-fio-a-fio.png" alt="Desenho ilustrativo de Sobrancelha fio a fio" loading="lazy"><div><h3>Sobrancelha fio a fio</h3><p>Fios desenhados um a um, com acabamento natural.</p></div><span class="price">Sob consulta</span><button class="btn ghost" data-sv="Sobrancelha fio a fio">Orçar</button></li>
+        <li class="item"><img src="static/assets/d-shadow.png" alt="Desenho ilustrativo de Sobrancelha Shadow e boca" loading="lazy"><div><h3>Sobrancelha Shadow e boca</h3><p>Sobrancelha sombreada e micropigmentação labial.</p></div><span class="price">Sob consulta</span><button class="btn ghost" data-sv="Sobrancelha Shadow e boca">Orçar</button></li>
+      </ul>
+      <p class="note">Valores de micropigmentação definidos após avaliação.</p>
+    </div>
+  </div>
+</section>
+
+<!-- RESULTADOS -->
+<section id="resultados">
+  <div class="wrap">
+    <div class="rv"><h2>Resultados reais</h2><p class="lead">Trabalhos feitos aqui no studio, com o nome do serviço de cada resultado. Toque em uma foto para ampliar.</p></div>
+    <div class="masonry" id="gallery">
+      <button type="button" class="rv" data-title="Brasileiro" aria-label="Ampliar: Brasileiro"><img src="static/assets/brasileiro.jpg" alt="Resultado: Brasileiro" loading="lazy"><span>Brasileiro<small>Cílios</small></span></button>
+      <button type="button" class="rv" data-title="Brasileiro com fio U" aria-label="Ampliar: Brasileiro com fio U"><img src="static/assets/brasileiro-fio-u.jpg" alt="Resultado: Brasileiro com fio U" loading="lazy"><span>Brasileiro com fio U<small>Cílios</small></span></button>
+      <button type="button" class="rv" data-title="Volume 5D" aria-label="Ampliar: Volume 5D"><img src="static/assets/5d.jpg" alt="Resultado: Volume 5D" loading="lazy"><span>Volume 5D<small>Cílios</small></span></button>
+      <button type="button" class="rv" data-title="Volume 6D" aria-label="Ampliar: Volume 6D"><img src="static/assets/6d.jpg" alt="Resultado: Volume 6D" loading="lazy"><span>Volume 6D<small>Cílios</small></span></button>
+      <button type="button" class="rv" data-title="Fox" aria-label="Ampliar: Fox"><img src="static/assets/fox.jpg" alt="Resultado: Fox" loading="lazy"><span>Fox<small>Cílios</small></span></button>
+      <button type="button" class="rv" data-title="Sobrancelha Shadow e boca" aria-label="Ampliar: Sobrancelha Shadow e boca"><img src="static/assets/shadow-boca.jpg" alt="Resultado: Sobrancelha Shadow e boca" loading="lazy"><span>Sobrancelha Shadow e boca<small>Micropigmentação</small></span></button>
+      <button type="button" class="rv" data-title="Sobrancelha fio a fio" aria-label="Ampliar: Sobrancelha fio a fio"><img src="static/assets/fio-a-fio.jpg" alt="Resultado: Sobrancelha fio a fio" loading="lazy"><span>Sobrancelha fio a fio<small>Micropigmentação</small></span></button>
+    </div>
+  </div>
+</section>
+
+<!-- SOBRE -->
+<section class="about" id="sobre">
+  <div class="wrap">
+    <figure class="rv"><img src="static/assets/yas.jpg" alt="Cílios e sobrancelha, trabalho do studio" loading="lazy"></figure>
+    <div class="rv">
+      <h2>Sobre mim</h2>
+      <!-- TROCAR: texto da cliente -->
+      <p class="lead">Sou Yasmim, especialista em extensão de cílios e micropigmentação. Meu trabalho é realçar o que você já tem, com naturalidade, cuidado e atenção a cada detalhe.</p>
+      <p>Cada atendimento começa com uma conversa para entender o seu estilo e indicar a técnica ideal para o seu olhar.</p>
+      <div class="stats"><div><b>+780</b>clientes atendidas</div><div><b>3 anos</b>de experiência</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- AVALIAÇÕES (opcional: trocar pelos depoimentos reais) -->
+<section class="reviews" id="avaliacoes">
+  <div class="wrap">
+    <div class="rv"><h2>Quem já passou por aqui</h2></div>
+    <div class="grid">
+      <blockquote class="rv">Studio muito bom super recomendo.<cite>Rafaela</cite></blockquote>
+      <blockquote class="rv">Atendimento muito bom e super atenciosa.<cite>Sarah</cite></blockquote>
+      <blockquote class="rv">Adorei a qualidade dos Cílios.<cite>Maria C.</cite></blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- ORÇAR -->
+<section class="quote" id="orcar">
+  <div class="wrap">
+    <div class="rv">
+      <h2>Peça seu orçamento</h2>
+      <p class="lead">Escolha o serviço e conte quando prefere ser atendida. Você será levada ao WhatsApp com a mensagem pronta.</p>
+      <div class="ig"><a class="btn" data-wa href="#" target="_blank" rel="noopener">Chamar no WhatsApp</a><a class="btn ghost" data-ig href="#" target="_blank" rel="noopener">Instagram</a></div>
+    </div>
+    <form id="form" class="rv">
+      <label>Serviço
+        <select id="svc" required>
+          <option value="">Selecione</option>
+          <optgroup label="Extensão de cílios">
+            <option>Brasileiro</option><option>Brasileiro com fio U</option><option>5D</option><option>6D</option><option>Fox</option>
+          </optgroup>
+          <optgroup label="Micropigmentação">
+            <option>Sobrancelha fio a fio</option><option>Sobrancelha Shadow e boca</option>
+          </optgroup>
+        </select>
+      </label>
+      <label>Seu nome<input id="nome" required autocomplete="name"></label>
+      <div class="row">
+        <label>Dia preferido<input id="dia" type="date"></label>
+        <label>Período<select id="per"><option>Manhã</option><option>Tarde</option><option>Noite</option></select></label>
+      </div>
+      <label>Observações (opcional)<textarea id="obs" rows="3"></textarea></label>
+      <button class="btn" type="submit">Enviar pelo WhatsApp</button>
+    </form>
+  </div>
+</section>
+
+<!-- LOCALIZAÇÃO -->
+<section class="where" id="local">
+  <div class="wrap">
+    <div class="rv">
+      <h2>Venha nos visitar</h2>
+      <div class="info">
+        <!-- TROCAR: dados reais -->
+        <div><h3>Endereço</h3><p id="addr">Rua Vicente Leporace, 455, Fátima</p></div>
+        <div><h3>Horários</h3><p>Segunda a Sexta, 13h às 20h e Sábado das 08h as 18h<br>Atendimento com hora marcada</p></div>
+        <div><h3>Contato</h3><p><a data-wa href="#" target="_blank" rel="noopener">WhatsApp</a> · <a data-ig href="#" target="_blank" rel="noopener">Instagram</a></p></div>
+      </div>
+    </div>
+    <div class="map rv"><div><p>Veja como chegar</p><br><a class="btn" id="mapLink" href="#" target="_blank" rel="noopener">Abrir no mapa</a></div></div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <a href="#inicio" class="logo">Preciosas</a>
+  <p>Extensão de cílios e micropigmentação</p>
+  <p>&copy; <span id="yr"></span> Preciosas. Todos os direitos reservados.</p>
+</footer>
+
+<a class="fab" data-wa href="#" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.1-1.3A10 10 0 1 0 12 2Zm5.8 14.2c-.2.7-1.3 1.3-1.8 1.3-.5.1-1 .2-3.3-.7-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .5l-.4.6c-.1.2-.3.3-.1.6.2.3.8 1.300 1.700 2.100 1.200 1 2.100 1.300 2.400 1.500.3.1.5.1.6-.1l.9-1.100c.2-.3.4-.2.600-.1l2 1c.3.1.5.2.5.3.1.2.1.8-.1 1.500Z"/></svg>
+</a>
+
+<dialog id="lb"><button class="x" aria-label="Fechar">&times;</button><img id="lbImg" alt=""><p class="cap-lb" id="lbCap"></p></dialog>
+
+<script src="static/js/main.js" defer></script>
+</body>
+</html>
